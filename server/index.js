@@ -73,4 +73,3 @@ app.post('/api/upload', upload.single('icon'), (req, res) => {
   const url = `http://localhost:4000/uploads/${req.file.filename}`;
   res.json({ url });
 });
-
