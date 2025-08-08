@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1754642253641,
+    "name": "夸克",
+    "url": "https://www.quark.cn/",
+    "category": "ai",
+    "logo": "https://gw.alicdn.com/imgextra/i3/O1CN018r2tKf28YP7ev0fPF_!!6000000007944-2-tps-48-48.png",
+    "description": "高质量搜索引擎"
+  },
+  {
+    "id": 1754642253642,
+    "logo": "http://localhost:4000/uploads/1754645890060.png",
+    "description": "强大的英语训练工具",
+    "name": "句乐部",
+    "url": "https://julebu.co/?by=history&from=kkframenew"
+  }
+]

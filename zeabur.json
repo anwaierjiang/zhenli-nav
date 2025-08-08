@@ -1,0 +1,22 @@
+{
+  "services": {
+    "backend": {
+      "type": "nodejs",
+      "root": "server",
+      "install": "npm install",
+      "start": "node index.js",
+      "port": 4000
+    },
+    "frontend": {
+      "type": "nextjs",
+      "root": "front",
+      "install": "npm install",
+      "build": "npm run build",
+      "start": "npm run start",
+      "port": 3000,
+      "env": {
+        "NEXT_PUBLIC_API_URL": "https://__BACKEND_PLACEHOLDER__.zeabur.app"
+      }
+    }
+  }
+}
