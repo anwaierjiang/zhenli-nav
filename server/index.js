@@ -7,7 +7,7 @@ const multer = require('multer'); // ✅ 上传用
 
 const app = express();
 const PORT = 4000;
-
+app.listen(PORT, () => console.log(`Server on ${PORT}`));
 // 启用 CORS
 app.use(cors());
 
@@ -73,3 +73,4 @@ app.post('/api/upload', upload.single('icon'), (req, res) => {
   const url = `http://localhost:4000/uploads/${req.file.filename}`;
   res.json({ url });
 });
+
